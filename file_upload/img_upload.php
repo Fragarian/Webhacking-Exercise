@@ -52,8 +52,6 @@
     } else {
       // 업로드중 이상 생김
       echo "<script>alert('업로드중 이상이 발생하였습니다.');</script>";
-      echo $_FILES["fileToUpload"]["error"];
-      echo;
     }
   }
 ?>
