@@ -1,5 +1,5 @@
 <?php
-    $db = new mysqli("localhost", "root", "0914", "victim");
+    $db = new mysqli("localhost", "root", "", "victim");
 
     function sq($query) {
         global $db;
